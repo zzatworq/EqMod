@@ -1,0 +1,3455 @@
+Using white text on transparent background. Ensure document background is non-white for visibility.
+Application closed
+Using white text on transparent background. Ensure document background is non-white for visibility.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{1}{3} \). Normal text follows: \[\sum M_A = 0\].
+
+To simplify the expression:
+
+\[
+\left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+we follow these steps:
+
+### Step 1: Factor the Denominators
+First, factor the denominators where possible.
+
+\[
+x^2 - 36 = (x - 6)(x + 6)
+\]
+
+So, the expression becomes:
+
+\[
+\left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+### Step 2: Combine the Fractions Inside the Parentheses
+To combine the fractions, find a common denominator, which is \((x - 6)(x + 6)\).
+
+\[
+\frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+\]
+
+Simplify the numerator:
+
+\[
+20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+\]
+
+So, the combined fraction is:
+
+\[
+\frac{8 - 2x}{(x - 6)(x + 6)}
+\]
+
+### Step 3: Factor the Numerator
+Factor out a common term from the numerator:
+
+\[
+8 - 2x = 2(4 - x)
+\]
+
+Now, the expression becomes:
+
+\[
+\frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+\]
+
+### Step 4: Simplify the Expression
+Notice that \((4 - x)\) appears in both the numerator and the denominator, so they cancel out:
+
+\[
+\frac{2}{(x - 6)(x + 6)}
+\]
+
+### Final Answer
+The simplified form of the expression is:
+
+\[
+\boxed{\frac{2}{(x - 6)(x + 6)}}
+\
+
+Found 14 valid equations in text
+Equation 1: E=mc^{2^{2}}
+Equation 2: \sum M_A = 0
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 4: x^2 - 36 = (x - 6)(x + 6)
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}
+Equation 9: 8 - 2x = 2(4 - x)
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Equation 11: \frac{2}{(x - 6)(x + 6)}
+Equation 12: \int_0^1 x^2 dx = \frac{1}{3}
+Equation 13: (x - 6)(x + 6)
+Equation 14: (4 - x)
+Processing LaTeX string: E=mc^{2^{2}}
+Non-transparent pixel count: 2296
+Final image size: (210, 80)
+Saved test debug image: test_eq_0.png
+Processing LaTeX string: \sum M_A = 0
+Non-transparent pixel count: 1745
+Final image size: (221, 80)
+Saved test debug image: test_eq_1.png
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Non-transparent pixel count: 3708
+Final image size: (293, 80)
+Saved test debug image: test_eq_2.png
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Non-transparent pixel count: 5017
+Final image size: (480, 80)
+Saved test debug image: test_eq_3.png
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Non-transparent pixel count: 4613
+Final image size: (351, 80)
+Saved test debug image: test_eq_4.png
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Non-transparent pixel count: 6908
+Final image size: (437, 80)
+Saved test debug image: test_eq_5.png
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Non-transparent pixel count: 9040
+Final image size: (804, 80)
+Saved test debug image: test_eq_6.png
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Non-transparent pixel count: 2746
+Final image size: (170, 80)
+Saved test debug image: test_eq_7.png
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Non-transparent pixel count: 4166
+Final image size: (377, 80)
+Saved test debug image: test_eq_8.png
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Non-transparent pixel count: 3727
+Final image size: (250, 80)
+Saved test debug image: test_eq_9.png
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Non-transparent pixel count: 2288
+Final image size: (170, 80)
+Saved test debug image: test_eq_10.png
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Non-transparent pixel count: 2606
+Final image size: (218, 80)
+Saved test debug image: test_eq_11.png
+Processing LaTeX string: (x - 6)(x + 6)
+Non-transparent pixel count: 3721
+Final image size: (302, 80)
+Saved test debug image: test_eq_12.png
+Processing LaTeX string: (4 - x)
+Non-transparent pixel count: 1721
+Final image size: (162, 80)
+Saved test debug image: test_eq_13.png
+Non-transparent pixel count: 2296
+Image bytes length: 4162
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 1745
+Image bytes length: 2012
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 3708
+Image bytes length: 6152
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 5017
+Image bytes length: 8842
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 4613
+Image bytes length: 7221
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 6908
+Image bytes length: 10226
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 9040
+Image bytes length: 14031
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 2746
+Image bytes length: 4734
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 4166
+Image bytes length: 6963
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 3727
+Image bytes length: 6066
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 2288
+Image bytes length: 3897
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 2606
+Image bytes length: 4763
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 3721
+Image bytes length: 7013
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 1721
+Image bytes length: 3198
+Saved debug image: debug_eq_13.png
+Successfully copied 14 images with text to clipboard
+Application closed
+Using white text on transparent background. Ensure document background is non-white for visibility.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{1}{3} \). Normal text follows: \[\sum M_A = 0\].
+
+To simplify the expression:
+
+\[
+\left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+we follow these steps:
+
+### Step 1: Factor the Denominators
+First, factor the denominators where possible.
+
+\[
+x^2 - 36 = (x - 6)(x + 6)
+\]
+
+So, the expression becomes:
+
+\[
+\left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+### Step 2: Combine the Fractions Inside the Parentheses
+To combine the fractions, find a common denominator, which is \((x - 6)(x + 6)\).
+
+\[
+\frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+\]
+
+Simplify the numerator:
+
+\[
+20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+\]
+
+So, the combined fraction is:
+
+\[
+\frac{8 - 2x}{(x - 6)(x + 6)}
+\]
+
+### Step 3: Factor the Numerator
+Factor out a common term from the numerator:
+
+\[
+8 - 2x = 2(4 - x)
+\]
+
+Now, the expression becomes:
+
+\[
+\frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+\]
+
+### Step 4: Simplify the Expression
+Notice that \((4 - x)\) appears in both the numerator and the denominator, so they cancel out:
+
+\[
+\frac{2}{(x - 6)(x + 6)}
+\]
+
+### Final Answer
+The simplified form of the expression is:
+
+\[
+\boxed{\frac{2}{(x - 6)(x + 6)}}
+\
+
+Found 14 valid equations in text
+Equation 1: E=mc^{2^{2}}
+Equation 2: \sum M_A = 0
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 4: x^2 - 36 = (x - 6)(x + 6)
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}
+Equation 9: 8 - 2x = 2(4 - x)
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Equation 11: \frac{2}{(x - 6)(x + 6)}
+Equation 12: \int_0^1 x^2 dx = \frac{1}{3}
+Equation 13: (x - 6)(x + 6)
+Equation 14: (4 - x)
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_11.png
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_12.png
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_13.png
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_13.png
+Successfully copied 14 images with text to clipboard
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{1}{3} \). Normal text follows: \[\sum M_A = 0\].
+
+To simplify the expression:
+
+\[
+\left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+we follow these steps:
+
+### Step 1: Factor the Denominators
+First, factor the denominators where possible.
+
+\[
+x^2 - 36 = (x - 6)(x + 6)
+\]
+
+So, the expression becomes:
+
+\[
+\left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+### Step 2: Combine the Fractions Inside the Parentheses
+To combine the fractions, find a common denominator, which is \((x - 6)(x + 6)\).
+
+\[
+\frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+\]
+
+Simplify the numerator:
+
+\[
+20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+\]
+
+So, the combined fraction is:
+
+\[
+\frac{8 - 2x}{(x - 6)(x + 6)}
+\]
+
+### Step 3: Factor the Numerator
+Factor out a common term from the numerator:
+
+\[
+8 - 2x = 2(4 - x)
+\]
+
+Now, the expression becomes:
+
+\[
+\frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+\]
+
+### Step 4: Simplify the Expression
+Notice that \((4 - x)\) appears in both the numerator and the denominator, so they cancel out:
+
+\[
+\frac{2}{(x - 6)(x + 6)}
+\]
+
+### Final Answer
+The simplified form of the expression is:
+
+\[
+\boxed{\frac{2}{(x - 6)(x + 6)}}
+\
+
+Found 14 valid equations in text
+Equation 1: E=mc^{2^{2}}
+Equation 2: \sum M_A = 0
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 4: x^2 - 36 = (x - 6)(x + 6)
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}
+Equation 9: 8 - 2x = 2(4 - x)
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Equation 11: \frac{2}{(x - 6)(x + 6)}
+Equation 12: \int_0^1 x^2 dx = \frac{1}{3}
+Equation 13: (x - 6)(x + 6)
+Equation 14: (4 - x)
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_11.png
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_12.png
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_13.png
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_13.png
+Successfully copied 14 images with text to clipboard
+Application closed
+Using white text on transparent background. Ensure document background is non-white for visibility.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{1}{3} \). Normal text follows: \[\sum M_A = 0\].
+
+To simplify the expression:
+
+\[
+\left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+we follow these steps:
+
+### Step 1: Factor the Denominators
+First, factor the denominators where possible.
+
+\[
+x^2 - 36 = (x - 6)(x + 6)
+\]
+
+So, the expression becomes:
+
+\[
+\left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+### Step 2: Combine the Fractions Inside the Parentheses
+To combine the fractions, find a common denominator, which is \((x - 6)(x + 6)\).
+
+\[
+\frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+\]
+
+Simplify the numerator:
+
+\[
+20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+\]
+
+So, the combined fraction is:
+
+\[
+\frac{8 - 2x}{(x - 6)(x + 6)}
+\]
+
+### Step 3: Factor the Numerator
+Factor out a common term from the numerator:
+
+\[
+8 - 2x = 2(4 - x)
+\]
+
+Now, the expression becomes:
+
+\[
+\frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+\]
+
+### Step 4: Simplify the Expression
+Notice that \((4 - x)\) appears in both the numerator and the denominator, so they cancel out:
+
+\[
+\frac{2}{(x - 6)(x + 6)}
+\]
+
+### Final Answer
+The simplified form of the expression is:
+
+\[
+\boxed{\frac{2}{(x - 6)(x + 6)}}
+\
+
+Found 14 valid equations in text
+Equation 1: E=mc^{2^{2}}
+Equation 2: \sum M_A = 0
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 4: x^2 - 36 = (x - 6)(x + 6)
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}
+Equation 9: 8 - 2x = 2(4 - x)
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Equation 11: \frac{2}{(x - 6)(x + 6)}
+Equation 12: \int_0^1 x^2 dx = \frac{1}{3}
+Equation 13: (x - 6)(x + 6)
+Equation 14: (4 - x)
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_11.png
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_12.png
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_13.png
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_13.png
+Successfully copied 14 images with text to clipboard
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{1}{3} \). Normal text follows: \[\sum M_A = 0\].
+
+To simplify the expression:
+
+\[
+\left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+we follow these steps:
+
+### Step 1: Factor the Denominators
+First, factor the denominators where possible.
+
+\[
+x^2 - 36 = (x - 6)(x + 6)
+\]
+
+So, the expression becomes:
+
+\[
+\left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+### Step 2: Combine the Fractions Inside the Parentheses
+To combine the fractions, find a common denominator, which is \((x - 6)(x + 6)\).
+
+\[
+\frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+\]
+
+Simplify the numerator:
+
+\[
+20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+\]
+
+So, the combined fraction is:
+
+\[
+\frac{8 - 2x}{(x - 6)(x + 6)}
+\]
+
+### Step 3: Factor the Numerator
+Factor out a common term from the numerator:
+
+\[
+8 - 2x = 2(4 - x)
+\]
+
+Now, the expression becomes:
+
+\[
+\frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+\]
+
+### Step 4: Simplify the Expression
+Notice that \((4 - x)\) appears in both the numerator and the denominator, so they cancel out:
+
+\[
+\frac{2}{(x - 6)(x + 6)}
+\]
+
+### Final Answer
+The simplified form of the expression is:
+
+\[
+\boxed{\frac{2}{(x - 6)(x + 6)}}
+\
+
+Found 14 valid equations in text
+Equation 1: E=mc^{2^{2}}
+Equation 2: \sum M_A = 0
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 4: x^2 - 36 = (x - 6)(x + 6)
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}
+Equation 9: 8 - 2x = 2(4 - x)
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Equation 11: \frac{2}{(x - 6)(x + 6)}
+Equation 12: \int_0^1 x^2 dx = \frac{1}{3}
+Equation 13: (x - 6)(x + 6)
+Equation 14: (4 - x)
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_11.png
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_12.png
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_13.png
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_13.png
+Successfully copied 14 images with text to clipboard
+Application closed
+Using white text on transparent background. Ensure document background is non-white for visibility.
+Started clipboard monitoring
+Clipboard contains non-text data
+Clipboard is empty or contains non-text data
+Stopped clipboard monitoring
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{1}{3} \). Normal text follows: \[\sum M_A = 0\].
+
+To simplify the expression:
+
+\[
+\left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+we follow these steps:
+
+### Step 1: Factor the Denominators
+First, factor the denominators where possible.
+
+\[
+x^2 - 36 = (x - 6)(x + 6)
+\]
+
+So, the expression becomes:
+
+\[
+\left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+### Step 2: Combine the Fractions Inside the Parentheses
+To combine the fractions, find a common denominator, which is \((x - 6)(x + 6)\).
+
+\[
+\frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+\]
+
+Simplify the numerator:
+
+\[
+20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+\]
+
+So, the combined fraction is:
+
+\[
+\frac{8 - 2x}{(x - 6)(x + 6)}
+\]
+
+### Step 3: Factor the Numerator
+Factor out a common term from the numerator:
+
+\[
+8 - 2x = 2(4 - x)
+\]
+
+Now, the expression becomes:
+
+\[
+\frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+\]
+
+### Step 4: Simplify the Expression
+Notice that \((4 - x)\) appears in both the numerator and the denominator, so they cancel out:
+
+\[
+\frac{2}{(x - 6)(x + 6)}
+\]
+
+### Final Answer
+The simplified form of the expression is:
+
+\[
+\boxed{\frac{2}{(x - 6)(x + 6)}}
+\
+
+Found 14 valid equations in text
+Equation 1: E=mc^{2^{2}}
+Equation 2: \sum M_A = 0
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 4: x^2 - 36 = (x - 6)(x + 6)
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}
+Equation 9: 8 - 2x = 2(4 - x)
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Equation 11: \frac{2}{(x - 6)(x + 6)}
+Equation 12: \int_0^1 x^2 dx = \frac{1}{3}
+Equation 13: (x - 6)(x + 6)
+Equation 14: (4 - x)
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_11.png
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_12.png
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_13.png
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_13.png
+Successfully copied 14 images with text to clipboard
+Application closed
+Application initialized. Using white text on transparent background.
+Application closed
+Application initialized. Using white text on transparent background.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{1}{3} \). Normal text follows: \[\sum M_A = 0\].
+
+To simplify the expression:
+
+\[
+\left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+we follow these steps:
+
+### Step 1: Factor the Denominators
+First, factor the denominators where possible.
+
+\[
+x^2 - 36 = (x - 6)(x + 6)
+\]
+
+So, the expression becomes:
+
+\[
+\left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+### Step 2: Combine the Fractions Inside the Parentheses
+To combine the fractions, find a common denominator, which is \((x - 6)(x + 6)\).
+
+\[
+\frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+\]
+
+Simplify the numerator:
+
+\[
+20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+\]
+
+So, the combined fraction is:
+
+\[
+\frac{8 - 2x}{(x - 6)(x + 6)}
+\]
+
+### Step 3: Factor the Numerator
+Factor out a common term from the numerator:
+
+\[
+8 - 2x = 2(4 - x)
+\]
+
+Now, the expression becomes:
+
+\[
+\frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+\]
+
+### Step 4: Simplify the Expression
+Notice that \((4 - x)\) appears in both the numerator and the denominator, so they cancel out:
+
+\[
+\frac{2}{(x - 6)(x + 6)}
+\]
+
+### Final Answer
+The simplified form of the expression is:
+
+\[
+\boxed{\frac{2}{(x - 6)(x + 6)}}
+\
+
+Found 14 valid equations in text
+Equation 1: E=mc^{2^{2}}
+Equation 2: \sum M_A = 0
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 4: x^2 - 36 = (x - 6)(x + 6)
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}
+Equation 9: 8 - 2x = 2(4 - x)
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Equation 11: \frac{2}{(x - 6)(x + 6)}
+Equation 12: \int_0^1 x^2 dx = \frac{1}{3}
+Equation 13: (x - 6)(x + 6)
+Equation 14: (4 - x)
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_11.png
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_12.png
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_13.png
+Copying images: test_mode=True, text_length=1348, equations=14
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_13.png
+Successfully copied 14 images with text to clipboard
+Saving DOCX: only_images=False, text_length=1348, equations=14
+Saving text and images
+Adding text segment: To simplify the expression:
+
+Test equation:...
+Adding image: temp_eq_0.png
+Adding text segment: and another...
+Adding image: temp_eq_1.png
+Adding text segment: . Normal text follows:...
+Adding image: temp_eq_2.png
+Adding text segment: .
+
+To simplify the expression:...
+Adding image: temp_eq_3.png
+Adding text segment: we follow these steps:
+
+### Step 1: Factor the Den...
+Adding image: temp_eq_4.png
+Adding text segment: So, the expression becomes:...
+Adding image: temp_eq_5.png
+Adding text segment: ### Step 2: Combine the Fractions Inside the Paren...
+Adding image: temp_eq_6.png
+Adding text segment: ....
+Adding image: temp_eq_7.png
+Adding text segment: Simplify the numerator:...
+Adding image: temp_eq_8.png
+Adding text segment: So, the combined fraction is:...
+Adding image: temp_eq_9.png
+Adding text segment: ### Step 3: Factor the Numerator
+Factor out a comm...
+Adding image: temp_eq_10.png
+Adding text segment: Now, the expression becomes:...
+Adding image: temp_eq_11.png
+Adding text segment: ### Step 4: Simplify the Expression
+Notice that...
+Adding image: temp_eq_12.png
+Adding text segment: appears in both the numerator and the denominator,...
+Adding image: temp_eq_13.png
+Adding final text segment: ### Final Answer
+The simplified form of the expres...
+Saved DOCX to C:/Users/ThePC/OneDrive/Pictures/w.docx
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{1}{3} \). Normal text follows: \[\sum M_A = 0\].
+
+To simplify the expression:
+
+\[
+\left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+we follow these steps:
+
+### Step 1: Factor the Denominators
+First, factor the denominators where possible.
+
+\[
+x^2 - 36 = (x - 6)(x + 6)
+\]
+
+So, the expression becomes:
+
+\[
+\left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+\]
+
+### Step 2: Combine the Fractions Inside the Parentheses
+To combine the fractions, find a common denominator, which is \((x - 6)(x + 6)\).
+
+\[
+\frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+\]
+
+Simplify the numerator:
+
+\[
+20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+\]
+
+So, the combined fraction is:
+
+\[
+\frac{8 - 2x}{(x - 6)(x + 6)}
+\]
+
+### Step 3: Factor the Numerator
+Factor out a common term from the numerator:
+
+\[
+8 - 2x = 2(4 - x)
+\]
+
+Now, the expression becomes:
+
+\[
+\frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+\]
+
+### Step 4: Simplify the Expression
+Notice that \((4 - x)\) appears in both the numerator and the denominator, so they cancel out:
+
+\[
+\frac{2}{(x - 6)(x + 6)}
+\]
+
+### Final Answer
+The simplified form of the expression is:
+
+\[
+\boxed{\frac{2}{(x - 6)(x + 6)}}
+\
+
+Found 11 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation 9: 8 - 2x = 2(4 - x)...
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation 11: \frac{2}{(x - 6)(x + 6)}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Copying images: test_mode=True, text_length=1348, equations=11
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Successfully copied 11 images with text to clipboard
+Saving DOCX: only_images=False, text_length=1348, equations=11
+Saving text and images
+Adding text segment: To simplify the expression:
+
+Test equation:...
+Adding image: temp_eq_0.png
+Adding text segment: and another \( \int_0^1 x^2 dx = \frac{1}{3} \). N...
+Adding image: temp_eq_1.png
+Adding text segment: .
+
+To simplify the expression:...
+Adding image: temp_eq_2.png
+Adding text segment: we follow these steps:
+
+### Step 1: Factor the Den...
+Adding image: temp_eq_3.png
+Adding text segment: So, the expression becomes:...
+Adding image: temp_eq_4.png
+Adding text segment: ### Step 2: Combine the Fractions Inside the Paren...
+Adding image: temp_eq_5.png
+Adding text segment: Simplify the numerator:...
+Adding image: temp_eq_6.png
+Adding text segment: So, the combined fraction is:...
+Adding image: temp_eq_7.png
+Adding text segment: ### Step 3: Factor the Numerator
+Factor out a comm...
+Adding image: temp_eq_8.png
+Adding text segment: Now, the expression becomes:...
+Adding image: temp_eq_9.png
+Adding text segment: ### Step 4: Simplify the Expression
+Notice that \(...
+Adding image: temp_eq_10.png
+Adding final text segment: ### Final Answer
+The simplified form of the expres...
+Saved DOCX to C:/Users/ThePC/OneDrive/Pictures/w.docx
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{...
+Found 3 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3:  \int_0^1 x^2 dx = \frac{1}{3} ...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Rendering equation 3:  \int_0^1 x^2 dx = \frac{1}{3} ...
+Processing LaTeX string:  \int_0^1 x^2 dx = \frac{1}{3} 
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_2.png
+Copying images: test_mode=True, text_length=148, equations=3, images=3
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_2.png
+Successfully copied 3 images with text to clipboard
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{...
+Found 3 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3: \int_0^1 x^2 dx = \frac{1}{3}...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_2.png
+Copying images: test_mode=True, text_length=148, equations=3, images=3
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_2.png
+Successfully copied 3 images with text to clipboard
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{...
+Found 3 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3: \int_0^1 x^2 dx = \frac{1}{3}...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_2.png
+Copying images: test_mode=True, text_length=148, equations=3, images=3
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_2.png
+Successfully copied 3 images with text to clipboard
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{...
+Found 3 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3: \int_0^1 x^2 dx = \frac{1}{3}...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_2.png
+Copying images: test_mode=True, text_length=148, equations=3, images=3
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_2.png
+Successfully copied 3 images with text to clipboard
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac...
+Found 14 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation 9: 8 - 2x = 2(4 - x)...
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation 11: \frac{2}{(x - 6)(x + 6)}...
+Equation 12: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation 13: (x - 6)(x + 6)...
+Equation 14: (4 - x)...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Rendering equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Rendering equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Rendering equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Rendering equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Rendering equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Rendering equation 9: 8 - 2x = 2(4 - x)...
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Rendering equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Rendering equation 11: \frac{2}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Rendering equation 12: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_11.png
+Rendering equation 13: (x - 6)(x + 6)...
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_12.png
+Rendering equation 14: (4 - x)...
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_13.png
+Copying images: test_mode=True, text_length=1348, equations=14, images=14
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_13.png
+Successfully copied 14 images with text to clipboard
+Saving DOCX: only_images=False, text_length=1348, equations=14, images=14
+Equation match 1: E=mc^{2^{2}}...
+Equation match 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation match 3: \sum M_A = 0...
+Equation match 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation match 5: x^2 - 36 = (x - 6)(x + 6)...
+Equation match 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation match 7: (x - 6)(x + 6)...
+Equation match 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation match 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation match 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation match 11: 8 - 2x = 2(4 - x)...
+Equation match 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation match 13: (4 - x)...
+Equation match 14: \frac{2}{(x - 6)(x + 6)}...
+Saving text and images
+Adding text segment: To simplify the expression:
+
+Test equation:...
+Adding image: temp_eq_0.png
+Adding text segment: and another...
+Adding image: temp_eq_1.png
+Adding text segment: . Normal text follows:...
+Adding image: temp_eq_2.png
+Adding text segment: .
+
+To simplify the expression:...
+Adding image: temp_eq_3.png
+Adding text segment: we follow these steps:
+
+### Step 1: Factor the Den...
+Adding image: temp_eq_4.png
+Adding text segment: So, the expression becomes:...
+Adding image: temp_eq_5.png
+Adding text segment: ### Step 2: Combine the Fractions Inside the Paren...
+Adding image: temp_eq_6.png
+Adding text segment: ....
+Adding image: temp_eq_7.png
+Adding text segment: Simplify the numerator:...
+Adding image: temp_eq_8.png
+Adding text segment: So, the combined fraction is:...
+Adding image: temp_eq_9.png
+Adding text segment: ### Step 3: Factor the Numerator
+Factor out a comm...
+Adding image: temp_eq_10.png
+Adding text segment: Now, the expression becomes:...
+Adding image: temp_eq_11.png
+Adding text segment: ### Step 4: Simplify the Expression
+Notice that...
+Adding image: temp_eq_12.png
+Adding text segment: appears in both the numerator and the denominator,...
+Adding image: temp_eq_13.png
+Adding final text segment: ### Final Answer
+The simplified form of the expres...
+Failed to save DOCX: [Errno 13] Permission denied: 'C:/Users/ThePC/OneDrive/Pictures/w.docx'
+Saving DOCX: only_images=False, text_length=1348, equations=14, images=14
+Equation match 1: E=mc^{2^{2}}...
+Equation match 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation match 3: \sum M_A = 0...
+Equation match 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation match 5: x^2 - 36 = (x - 6)(x + 6)...
+Equation match 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation match 7: (x - 6)(x + 6)...
+Equation match 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation match 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation match 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation match 11: 8 - 2x = 2(4 - x)...
+Equation match 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation match 13: (4 - x)...
+Equation match 14: \frac{2}{(x - 6)(x + 6)}...
+Saving text and images
+Adding text segment: To simplify the expression:
+
+Test equation:...
+Adding image: temp_eq_0.png
+Adding text segment: and another...
+Adding image: temp_eq_1.png
+Adding text segment: . Normal text follows:...
+Adding image: temp_eq_2.png
+Adding text segment: .
+
+To simplify the expression:...
+Adding image: temp_eq_3.png
+Adding text segment: we follow these steps:
+
+### Step 1: Factor the Den...
+Adding image: temp_eq_4.png
+Adding text segment: So, the expression becomes:...
+Adding image: temp_eq_5.png
+Adding text segment: ### Step 2: Combine the Fractions Inside the Paren...
+Adding image: temp_eq_6.png
+Adding text segment: ....
+Adding image: temp_eq_7.png
+Adding text segment: Simplify the numerator:...
+Adding image: temp_eq_8.png
+Adding text segment: So, the combined fraction is:...
+Adding image: temp_eq_9.png
+Adding text segment: ### Step 3: Factor the Numerator
+Factor out a comm...
+Adding image: temp_eq_10.png
+Adding text segment: Now, the expression becomes:...
+Adding image: temp_eq_11.png
+Adding text segment: ### Step 4: Simplify the Expression
+Notice that...
+Adding image: temp_eq_12.png
+Adding text segment: appears in both the numerator and the denominator,...
+Adding image: temp_eq_13.png
+Adding final text segment: ### Final Answer
+The simplified form of the expres...
+Saved DOCX to C:/Users/ThePC/OneDrive/Pictures/w.docx
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac...
+Found 15 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation 9: 8 - 2x = 2(4 - x)...
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation 11: \frac{2}{(x - 6)(x + 6)}...
+Equation 12: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Equation 13: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation 14: (x - 6)(x + 6)...
+Equation 15: (4 - x)...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Rendering equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Rendering equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Rendering equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Rendering equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Rendering equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Rendering equation 9: 8 - 2x = 2(4 - x)...
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Rendering equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Rendering equation 11: \frac{2}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Rendering equation 12: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Processing LaTeX string: \boxed{\frac{2}{(x - 6)(x + 6)}}
+Final image size: (899, 400)
+Non-transparent pixel count: 26867
+Saved test debug image: test_eq_11.png
+Rendering equation 13: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_12.png
+Rendering equation 14: (x - 6)(x + 6)...
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_13.png
+Rendering equation 15: (4 - x)...
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_14.png
+Copying images: test_mode=True, text_length=1349, equations=15, images=15
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 26867
+Image bytes length: 10408
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_13.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_14.png
+Successfully copied 15 images with text to clipboard
+Saving DOCX: only_images=False, text_length=1349, equations=15, images=15
+Equation match 1: E=mc^{2^{2}}...
+Equation match 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation match 3: \sum M_A = 0...
+Equation match 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation match 5: x^2 - 36 = (x - 6)(x + 6)...
+Equation match 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation match 7: (x - 6)(x + 6)...
+Equation match 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation match 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation match 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation match 11: 8 - 2x = 2(4 - x)...
+Equation match 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation match 13: (4 - x)...
+Equation match 14: \frac{2}{(x - 6)(x + 6)}...
+Equation match 15: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Saving text and images
+Adding text segment: To simplify the expression:
+
+Test equation:...
+Adding image: temp_eq_0.png
+Adding text segment: and another...
+Adding image: temp_eq_1.png
+Adding text segment: . Normal text follows:...
+Adding image: temp_eq_2.png
+Adding text segment: .
+
+To simplify the expression:...
+Adding image: temp_eq_3.png
+Adding text segment: we follow these steps:
+
+### Step 1: Factor the Den...
+Adding image: temp_eq_4.png
+Adding text segment: So, the expression becomes:...
+Adding image: temp_eq_5.png
+Adding text segment: ### Step 2: Combine the Fractions Inside the Paren...
+Adding image: temp_eq_6.png
+Adding text segment: ....
+Adding image: temp_eq_7.png
+Adding text segment: Simplify the numerator:...
+Adding image: temp_eq_8.png
+Adding text segment: So, the combined fraction is:...
+Adding image: temp_eq_9.png
+Adding text segment: ### Step 3: Factor the Numerator
+Factor out a comm...
+Adding image: temp_eq_10.png
+Adding text segment: Now, the expression becomes:...
+Adding image: temp_eq_11.png
+Adding text segment: ### Step 4: Simplify the Expression
+Notice that...
+Adding image: temp_eq_12.png
+Adding text segment: appears in both the numerator and the denominator,...
+Adding image: temp_eq_13.png
+Adding text segment: ### Final Answer
+The simplified form of the expres...
+Adding image: temp_eq_14.png
+Saved DOCX to C:/Users/ThePC/OneDrive/Pictures/w.docx
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac...
+Found 15 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation 9: 8 - 2x = 2(4 - x)...
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation 11: \frac{2}{(x - 6)(x + 6)}...
+Equation 12: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Equation 13: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation 14: (x - 6)(x + 6)...
+Equation 15: (4 - x)...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Rendering equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Rendering equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Rendering equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Rendering equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Rendering equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Rendering equation 9: 8 - 2x = 2(4 - x)...
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Rendering equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Rendering equation 11: \frac{2}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Rendering equation 12: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Processing LaTeX string: \boxed{\frac{2}{(x - 6)(x + 6)}}
+Final image size: (899, 400)
+Non-transparent pixel count: 26867
+Saved test debug image: test_eq_11.png
+Rendering equation 13: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_12.png
+Rendering equation 14: (x - 6)(x + 6)...
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_13.png
+Rendering equation 15: (4 - x)...
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_14.png
+Copying images: test_mode=True, text_length=1362, equations=15, images=15
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 26867
+Image bytes length: 10408
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_13.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_14.png
+Successfully copied 15 images with text to clipboard
+Saving DOCX: only_images=False, text_length=1362, equations=15, images=15
+Equation match 1: E=mc^{2^{2}}...
+Equation match 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation match 3: \sum M_A = 0...
+Equation match 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation match 5: x^2 - 36 = (x - 6)(x + 6)...
+Equation match 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation match 7: (x - 6)(x + 6)...
+Equation match 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation match 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation match 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation match 11: 8 - 2x = 2(4 - x)...
+Equation match 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation match 13: (4 - x)...
+Equation match 14: \frac{2}{(x - 6)(x + 6)}...
+Equation match 15: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Saving text and images
+Adding text segment: To simplify the expression:
+
+Test equation:...
+Adding image: temp_eq_0.png
+Adding text segment: and another...
+Adding image: temp_eq_1.png
+Adding text segment: . Normal text follows:...
+Adding image: temp_eq_2.png
+Adding text segment: .
+
+To simplify the expression:...
+Adding image: temp_eq_3.png
+Adding text segment: we follow these steps:
+
+### Step 1: Factor the Den...
+Adding image: temp_eq_4.png
+Adding text segment: So, the expression becomes:...
+Adding image: temp_eq_5.png
+Adding text segment: ### Step 2: Combine the Fractions Inside the Paren...
+Adding image: temp_eq_6.png
+Adding text segment: ....
+Adding image: temp_eq_7.png
+Adding text segment: Simplify the numerator:...
+Adding image: temp_eq_8.png
+Adding text segment: So, the combined fraction is:...
+Adding image: temp_eq_9.png
+Adding text segment: ### Step 3: Factor the Numerator
+Factor out a comm...
+Adding image: temp_eq_10.png
+Adding text segment: Now, the expression becomes:...
+Adding image: temp_eq_11.png
+Adding text segment: ### Step 4: Simplify the Expression
+Notice that...
+Adding image: temp_eq_12.png
+Adding text segment: appears in both the numerator and the denominator,...
+Adding image: temp_eq_13.png
+Adding text segment: ### Final Answer
+The simplified form of the expres...
+Adding image: temp_eq_14.png
+Adding final text segment: that i final...
+Saved DOCX to C:/Users/ThePC/OneDrive/Pictures/w.docx
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac...
+Found 15 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation 9: 8 - 2x = 2(4 - x)...
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation 11: \frac{2}{(x - 6)(x + 6)}...
+Equation 12: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Equation 13: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation 14: (x - 6)(x + 6)...
+Equation 15: (4 - x)...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Rendering equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Rendering equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Rendering equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Rendering equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Rendering equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Rendering equation 9: 8 - 2x = 2(4 - x)...
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Rendering equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Rendering equation 11: \frac{2}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Rendering equation 12: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Processing LaTeX string: \boxed{\frac{2}{(x - 6)(x + 6)}}
+Final image size: (899, 400)
+Non-transparent pixel count: 26867
+Saved test debug image: test_eq_11.png
+Rendering equation 13: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_12.png
+Rendering equation 14: (x - 6)(x + 6)...
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_13.png
+Rendering equation 15: (4 - x)...
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_14.png
+Copying images: test_mode=True, text_length=1362, equations=15, images=15
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 26867
+Image bytes length: 10408
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_13.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_14.png
+Successfully copied 15 images with text to clipboard
+Saving DOCX: only_images=False, text_length=1362, equations=15, images=15
+Equation match 1: E=mc^{2^{2}}...
+Equation match 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation match 3: \sum M_A = 0...
+Equation match 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation match 5: x^2 - 36 = (x - 6)(x + 6)...
+Equation match 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation match 7: (x - 6)(x + 6)...
+Equation match 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation match 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation match 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation match 11: 8 - 2x = 2(4 - x)...
+Equation match 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation match 13: (4 - x)...
+Equation match 14: \frac{2}{(x - 6)(x + 6)}...
+Equation match 15: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Saving text and images
+Adding text segment: To simplify the expression:
+
+Test equation:...
+Adding image: temp_eq_0.png
+Adding text segment: and another...
+Adding image: temp_eq_1.png
+Adding text segment: . Normal text follows:...
+Adding image: temp_eq_2.png
+Adding text segment: .
+
+To simplify the expression:...
+Adding image: temp_eq_3.png
+Adding text segment: we follow these steps:
+
+### Step 1: Factor the Den...
+Adding image: temp_eq_4.png
+Adding text segment: So, the expression becomes:...
+Adding image: temp_eq_5.png
+Adding text segment: ### Step 2: Combine the Fractions Inside the Paren...
+Adding image: temp_eq_6.png
+Adding text segment: ....
+Adding image: temp_eq_7.png
+Adding text segment: Simplify the numerator:...
+Adding image: temp_eq_8.png
+Adding text segment: So, the combined fraction is:...
+Adding image: temp_eq_9.png
+Adding text segment: ### Step 3: Factor the Numerator
+Factor out a comm...
+Adding image: temp_eq_10.png
+Adding text segment: Now, the expression becomes:...
+Adding image: temp_eq_11.png
+Adding text segment: ### Step 4: Simplify the Expression
+Notice that...
+Adding image: temp_eq_12.png
+Adding text segment: appears in both the numerator and the denominator,...
+Adding image: temp_eq_13.png
+Adding text segment: ### Final Answer
+The simplified form of the expres...
+Adding image: temp_eq_14.png
+Adding final text segment: that i final...
+Failed to save DOCX: [Errno 13] Permission denied: 'C:/Users/ThePC/OneDrive/Pictures/w.docx'
+Saving DOCX: only_images=False, text_length=1362, equations=15, images=15
+Equation match 1: E=mc^{2^{2}}...
+Equation match 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation match 3: \sum M_A = 0...
+Equation match 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation match 5: x^2 - 36 = (x - 6)(x + 6)...
+Equation match 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation match 7: (x - 6)(x + 6)...
+Equation match 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation match 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation match 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation match 11: 8 - 2x = 2(4 - x)...
+Equation match 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation match 13: (4 - x)...
+Equation match 14: \frac{2}{(x - 6)(x + 6)}...
+Equation match 15: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Saving text and images
+Adding text segment: To simplify the expression:
+
+Test equation:...
+Adding image: temp_eq_0.png
+Adding text segment: and another...
+Adding image: temp_eq_1.png
+Adding text segment: . Normal text follows:...
+Adding image: temp_eq_2.png
+Adding text segment: .
+
+To simplify the expression:...
+Adding image: temp_eq_3.png
+Adding text segment: we follow these steps:
+
+### Step 1: Factor the Den...
+Adding image: temp_eq_4.png
+Adding text segment: So, the expression becomes:...
+Adding image: temp_eq_5.png
+Adding text segment: ### Step 2: Combine the Fractions Inside the Paren...
+Adding image: temp_eq_6.png
+Adding text segment: ....
+Adding image: temp_eq_7.png
+Adding text segment: Simplify the numerator:...
+Adding image: temp_eq_8.png
+Adding text segment: So, the combined fraction is:...
+Adding image: temp_eq_9.png
+Adding text segment: ### Step 3: Factor the Numerator
+Factor out a comm...
+Adding image: temp_eq_10.png
+Adding text segment: Now, the expression becomes:...
+Adding image: temp_eq_11.png
+Adding text segment: ### Step 4: Simplify the Expression
+Notice that...
+Adding image: temp_eq_12.png
+Adding text segment: appears in both the numerator and the denominator,...
+Adding image: temp_eq_13.png
+Adding text segment: ### Final Answer
+The simplified form of the expres...
+Adding image: temp_eq_14.png
+Adding final text segment: that i final...
+Saved DOCX to C:/Users/ThePC/OneDrive/Pictures/w.docx
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac...
+Found 15 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation 9: 8 - 2x = 2(4 - x)...
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation 11: \frac{2}{(x - 6)(x + 6)}...
+Equation 12: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Equation 13: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation 14: (x - 6)(x + 6)...
+Equation 15: (4 - x)...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Rendering equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Rendering equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Rendering equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Rendering equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Rendering equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Rendering equation 9: 8 - 2x = 2(4 - x)...
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Rendering equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Rendering equation 11: \frac{2}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Rendering equation 12: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Processing LaTeX string: \boxed{\frac{2}{(x - 6)(x + 6)}}
+Final image size: (899, 400)
+Non-transparent pixel count: 26867
+Saved test debug image: test_eq_11.png
+Rendering equation 13: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_12.png
+Rendering equation 14: (x - 6)(x + 6)...
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_13.png
+Rendering equation 15: (4 - x)...
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_14.png
+Copying images: test_mode=True, text_length=1362, equations=15, images=15
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 26867
+Image bytes length: 10408
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_13.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_14.png
+Successfully copied 15 images with text to clipboard
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac...
+Found 15 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \sum M_A = 0...
+Equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation 9: 8 - 2x = 2(4 - x)...
+Equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation 11: \frac{2}{(x - 6)(x + 6)}...
+Equation 12: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Equation 13: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation 14: (x - 6)(x + 6)...
+Equation 15: (4 - x)...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_2.png
+Rendering equation 4: x^2 - 36 = (x - 6)(x + 6)...
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_3.png
+Rendering equation 5: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_4.png
+Rendering equation 6: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_5.png
+Rendering equation 7: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_6.png
+Rendering equation 8: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_7.png
+Rendering equation 9: 8 - 2x = 2(4 - x)...
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_8.png
+Rendering equation 10: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_9.png
+Rendering equation 11: \frac{2}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_10.png
+Rendering equation 12: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Processing LaTeX string: \boxed{\frac{2}{(x - 6)(x + 6)}}
+Final image size: (899, 400)
+Non-transparent pixel count: 26867
+Saved test debug image: test_eq_11.png
+Rendering equation 13: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_12.png
+Rendering equation 14: (x - 6)(x + 6)...
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_13.png
+Rendering equation 15: (4 - x)...
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_14.png
+Copying images: test_mode=True, text_length=1362, equations=15, images=15
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 26867
+Image bytes length: 10408
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_13.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_14.png
+Successfully copied 15 images with text to clipboard
+Saving DOCX: only_images=False, text_length=1362, equations=15, images=15
+Equation match 1: E=mc^{2^{2}}...
+Equation match 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation match 3: \sum M_A = 0...
+Equation match 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation match 5: x^2 - 36 = (x - 6)(x + 6)...
+Equation match 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation match 7: (x - 6)(x + 6)...
+Equation match 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation match 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation match 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation match 11: 8 - 2x = 2(4 - x)...
+Equation match 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation match 13: (4 - x)...
+Equation match 14: \frac{2}{(x - 6)(x + 6)}...
+Equation match 15: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Saving text and images
+Adding text segment: To simplify the expression:
+
+Test equation:...
+Adding image for equation: E=mc^{2^{2}}...
+Adding text segment: and another...
+Adding image for equation: \int_0^1 x^2 dx = \frac{1}{3}...
+Adding text segment: . Normal text follows:...
+Adding image for equation: \sum M_A = 0...
+Adding text segment: .
+
+To simplify the expression:...
+Adding image for equation: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Adding text segment: we follow these steps:
+
+### Step 1: Factor the Den...
+Adding image for equation: x^2 - 36 = (x - 6)(x + 6)...
+Adding text segment: So, the expression becomes:...
+Adding image for equation: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Adding text segment: ### Step 2: Combine the Fractions Inside the Paren...
+Adding image for equation: (x - 6)(x + 6)...
+Adding text segment: ....
+Adding image for equation: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Adding text segment: Simplify the numerator:...
+Adding image for equation: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Adding text segment: So, the combined fraction is:...
+Adding image for equation: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Adding text segment: ### Step 3: Factor the Numerator
+Factor out a comm...
+Adding image for equation: 8 - 2x = 2(4 - x)...
+Adding text segment: Now, the expression becomes:...
+Adding image for equation: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Adding text segment: ### Step 4: Simplify the Expression
+Notice that...
+Adding image for equation: (4 - x)...
+Adding text segment: appears in both the numerator and the denominator,...
+Adding image for equation: \frac{2}{(x - 6)(x + 6)}...
+Adding text segment: ### Final Answer
+The simplified form of the expres...
+Adding image for equation: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Adding final text segment: that i final...
+Saved DOCX to C:/Users/ThePC/OneDrive/Pictures/w.docx
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Started clipboard monitoring
+Retrieved clipboard text: import tkinter as tk
+from tkinter import ttk, messagebox, filedialog
+import tkinter.font as tkfont...
+New clipboard content detected: import tkinter as tk
+from tkinter import ttk, messagebox, filedialog
+import tkinter.font as tkfont...
+Found 0 LaTeX equations
+Found 0 equations
+No valid LaTeX equations found in clipboard content
+Stopped clipboard monitoring
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac...
+Detected equation: E=mc^{2^{2}}... (start=45, end=61)
+Detected equation: \sum M_A = 0... (start=132, end=148)
+Detected equation: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ... (start=180, end=261)
+Detected equation: x^2 - 36 = (x - 6)(x + 6)... (start=371, end=402)
+Detected equation: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}... (start=433, end=520)
+Detected equation: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra... (start=662, end=750)
+Detected equation: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x... (start=777, end=820)
+Detected equation: \frac{8 - 2x}{(x - 6)(x + 6)}... (start=853, end=888)
+Detected equation: 8 - 2x = 2(4 - x)... (start=969, end=992)
+Detected equation: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ... (start=1024, end=1084)
+Detected equation: \frac{2}{(x - 6)(x + 6)}... (start=1218, end=1248)
+Detected equation: \boxed{\frac{2}{(x - 6)(x + 6)}}... (start=1310, end=1348)
+Detected equation: \int_0^1 x^2 dx = \frac{1}{3}... (start=74, end=109)
+Detected equation: (x - 6)(x + 6)... (start=641, end=659)
+Detected equation: (4 - x)... (start=1134, end=1145)
+Found 15 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation 3: \sum M_A = 0...
+Equation 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation 5: x^2 - 36 = (x - 6)(x + 6)...
+Equation 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation 7: (x - 6)(x + 6)...
+Equation 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation 11: 8 - 2x = 2(4 - x)...
+Equation 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation 13: (4 - x)...
+Equation 14: \frac{2}{(x - 6)(x + 6)}...
+Equation 15: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_2.png
+Rendering equation 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_3.png
+Rendering equation 5: x^2 - 36 = (x - 6)(x + 6)...
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_4.png
+Rendering equation 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_5.png
+Rendering equation 7: (x - 6)(x + 6)...
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_6.png
+Rendering equation 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_7.png
+Rendering equation 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_8.png
+Rendering equation 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_9.png
+Rendering equation 11: 8 - 2x = 2(4 - x)...
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_10.png
+Rendering equation 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_11.png
+Rendering equation 13: (4 - x)...
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_12.png
+Rendering equation 14: \frac{2}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_13.png
+Rendering equation 15: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Processing LaTeX string: \boxed{\frac{2}{(x - 6)(x + 6)}}
+Final image size: (899, 400)
+Non-transparent pixel count: 26867
+Saved test debug image: test_eq_14.png
+Copying images: test_mode=True, text_length=1362, equations=15, images=15
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_13.png
+Non-transparent pixel count: 26867
+Image bytes length: 10408
+Saved debug image: debug_eq_14.png
+Successfully copied 15 images with text to clipboard
+Saving DOCX: only_images=False, text_length=1362, equations=15, images=15
+Equation match 1: E=mc^{2^{2}}... (raw: \[E=mc^{2^{2}}\]...)
+Equation match 2: \int_0^1 x^2 dx = \frac{1}{3}... (raw: \( \int_0^1 x^2 dx = \frac{1}{3} \)...)
+Equation match 3: \sum M_A = 0... (raw: \[\sum M_A = 0\]...)
+Equation match 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ... (raw: \[
+\left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \r...)
+Equation match 5: x^2 - 36 = (x - 6)(x + 6)... (raw: \[
+x^2 - 36 = (x - 6)(x + 6)
+\]...)
+Equation match 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}... (raw: \[
+\left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x -...)
+Equation match 7: (x - 6)(x + 6)... (raw: \((x - 6)(x + 6)\)...)
+Equation match 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra... (raw: \[
+\frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \...)
+Equation match 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x... (raw: \[
+20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+\]...)
+Equation match 10: \frac{8 - 2x}{(x - 6)(x + 6)}... (raw: \[
+\frac{8 - 2x}{(x - 6)(x + 6)}
+\]...)
+Equation match 11: 8 - 2x = 2(4 - x)... (raw: \[
+8 - 2x = 2(4 - x)
+\]...)
+Equation match 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ... (raw: \[
+\frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}...)
+Equation match 13: (4 - x)... (raw: \((4 - x)\)...)
+Equation match 14: \frac{2}{(x - 6)(x + 6)}... (raw: \[
+\frac{2}{(x - 6)(x + 6)}
+\]...)
+Equation match 15: \boxed{\frac{2}{(x - 6)(x + 6)}}... (raw: \[
+\boxed{\frac{2}{(x - 6)(x + 6)}}
+\]...)
+Saving text and images
+Adding text segment: 
+To simplify the expression:
+
+Test equation: ...
+Adding image 1/15 for equation 1: E=mc^{2^{2}}...
+Adding text segment:  and another ...
+Adding image 2/15 for equation 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Adding text segment: . Normal text follows: ...
+Adding image 3/15 for equation 3: \sum M_A = 0...
+Adding text segment: .
+
+To simplify the expression:
+
+...
+Adding image 4/15 for equation 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Adding text segment: 
+
+we follow these steps:
+
+### Step 1: Factor the D...
+Adding image 5/15 for equation 5: x^2 - 36 = (x - 6)(x + 6)...
+Adding text segment: 
+
+So, the expression becomes:
+
+...
+Adding image 6/15 for equation 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Adding text segment: 
+
+### Step 2: Combine the Fractions Inside the Par...
+Adding image 7/15 for equation 7: (x - 6)(x + 6)...
+Adding text segment: .
+
+...
+Adding image 8/15 for equation 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Adding text segment: 
+
+Simplify the numerator:
+
+...
+Adding image 9/15 for equation 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Adding text segment: 
+
+So, the combined fraction is:
+
+...
+Adding image 10/15 for equation 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Adding text segment: 
+
+### Step 3: Factor the Numerator
+Factor out a co...
+Adding image 11/15 for equation 11: 8 - 2x = 2(4 - x)...
+Adding text segment: 
+
+Now, the expression becomes:
+
+...
+Adding image 12/15 for equation 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Adding text segment: 
+
+### Step 4: Simplify the Expression
+Notice that ...
+Adding image 13/15 for equation 13: (4 - x)...
+Adding text segment:  appears in both the numerator and the denominator...
+Adding image 14/15 for equation 14: \frac{2}{(x - 6)(x + 6)}...
+Adding text segment: 
+
+### Final Answer
+The simplified form of the expr...
+Adding image 15/15 for equation 15: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Adding final text segment: that i final...
+Saved DOCX to C:/Users/ThePC/OneDrive/Pictures/w.docx
+Opened DOCX file: C:/Users/ThePC/OneDrive/Pictures/w.docx
+Application closed
+Using white text on transparent background. Ensure document background is non-white for visibility.
+Application closed
+Application initialized. Using white text on transparent background.
+Rendering test text: To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac{...
+Found 3 valid equations in text
+Equation 1: E=mc^{2^{2}}
+Equation 2: \sum M_A = 0
+Equation 3: \int_0^1 x^2 dx = \frac{1}{3}
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_1.png
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_2.png
+Copying images: test_mode=True, text_length=148, equations=3
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_2.png
+Successfully copied 3 images with text to clipboard
+Application closed
+LaTeX distribution found and functional
+Application initialized. Using white text on transparent background.
+Rendering test text: 
+To simplify the expression:
+
+Test equation: \[E=mc^{2^{2}}\] and another \( \int_0^1 x^2 dx = \frac...
+Detected equation: E=mc^{2^{2}}... (start=45, end=61)
+Detected equation: \sum M_A = 0... (start=132, end=148)
+Detected equation: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ... (start=180, end=261)
+Detected equation: x^2 - 36 = (x - 6)(x + 6)... (start=371, end=402)
+Detected equation: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}... (start=433, end=520)
+Detected equation: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra... (start=662, end=750)
+Detected equation: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x... (start=777, end=820)
+Detected equation: \frac{8 - 2x}{(x - 6)(x + 6)}... (start=853, end=888)
+Detected equation: 8 - 2x = 2(4 - x)... (start=969, end=992)
+Detected equation: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ... (start=1024, end=1084)
+Detected equation: \frac{2}{(x - 6)(x + 6)}... (start=1218, end=1248)
+Detected equation: \boxed{\frac{2}{(x - 6)(x + 6)}}... (start=1310, end=1348)
+Detected equation: \int_0^1 x^2 dx = \frac{1}{3}... (start=74, end=109)
+Detected equation: (x - 6)(x + 6)... (start=641, end=659)
+Detected equation: (4 - x)... (start=1134, end=1145)
+Found 15 LaTeX equations
+Equation 1: E=mc^{2^{2}}...
+Equation 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Equation 3: \sum M_A = 0...
+Equation 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Equation 5: x^2 - 36 = (x - 6)(x + 6)...
+Equation 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Equation 7: (x - 6)(x + 6)...
+Equation 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Equation 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Equation 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Equation 11: 8 - 2x = 2(4 - x)...
+Equation 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Equation 13: (4 - x)...
+Equation 14: \frac{2}{(x - 6)(x + 6)}...
+Equation 15: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Rendering equation 1: E=mc^{2^{2}}...
+Processing LaTeX string: E=mc^{2^{2}}
+Final image size: (588, 187)
+Non-transparent pixel count: 10271
+Saved test debug image: test_eq_0.png
+Rendering equation 2: \int_0^1 x^2 dx = \frac{1}{3}...
+Processing LaTeX string: \int_0^1 x^2 dx = \frac{1}{3}
+Final image size: (704, 228)
+Non-transparent pixel count: 14411
+Saved test debug image: test_eq_1.png
+Rendering equation 3: \sum M_A = 0...
+Processing LaTeX string: \sum M_A = 0
+Final image size: (595, 162)
+Non-transparent pixel count: 14063
+Saved test debug image: test_eq_2.png
+Rendering equation 4: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \righ...
+Processing LaTeX string: \left( \frac{20}{x^2 - 36} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1197, 299)
+Non-transparent pixel count: 26094
+Saved test debug image: test_eq_3.png
+Rendering equation 5: x^2 - 36 = (x - 6)(x + 6)...
+Processing LaTeX string: x^2 - 36 = (x - 6)(x + 6)
+Final image size: (1464, 196)
+Non-transparent pixel count: 23795
+Saved test debug image: test_eq_4.png
+Rendering equation 6: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6}...
+Processing LaTeX string: \left( \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} \right) \times \frac{1}{4 - x}
+Final image size: (1457, 299)
+Non-transparent pixel count: 31645
+Saved test debug image: test_eq_5.png
+Rendering equation 7: (x - 6)(x + 6)...
+Processing LaTeX string: (x - 6)(x + 6)
+Final image size: (833, 179)
+Non-transparent pixel count: 14814
+Saved test debug image: test_eq_6.png
+Rendering equation 8: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \fra...
+Processing LaTeX string: \frac{20}{(x - 6)(x + 6)} - \frac{2}{x - 6} = \frac{20 - 2(x + 6)}{(x - 6)(x + 6)}
+Final image size: (1687, 269)
+Non-transparent pixel count: 42008
+Saved test debug image: test_eq_7.png
+Rendering equation 9: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x...
+Processing LaTeX string: 20 - 2(x + 6) = 20 - 2x - 12 = 8 - 2x
+Final image size: (1800, 138)
+Non-transparent pixel count: 30927
+Saved test debug image: test_eq_8.png
+Rendering equation 10: \frac{8 - 2x}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{8 - 2x}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 15775
+Saved test debug image: test_eq_9.png
+Rendering equation 11: 8 - 2x = 2(4 - x)...
+Processing LaTeX string: 8 - 2x = 2(4 - x)
+Final image size: (1054, 179)
+Non-transparent pixel count: 16937
+Saved test debug image: test_eq_10.png
+Rendering equation 12: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 ...
+Processing LaTeX string: \frac{2(4 - x)}{(x - 6)(x + 6)} \times \frac{1}{4 - x}
+Final image size: (942, 269)
+Non-transparent pixel count: 22474
+Saved test debug image: test_eq_11.png
+Rendering equation 13: (4 - x)...
+Processing LaTeX string: (4 - x)
+Final image size: (417, 179)
+Non-transparent pixel count: 6748
+Saved test debug image: test_eq_12.png
+Rendering equation 14: \frac{2}{(x - 6)(x + 6)}...
+Processing LaTeX string: \frac{2}{(x - 6)(x + 6)}
+Final image size: (583, 246)
+Non-transparent pixel count: 13061
+Saved test debug image: test_eq_13.png
+Rendering equation 15: \boxed{\frac{2}{(x - 6)(x + 6)}}...
+Processing LaTeX string: \boxed{\frac{2}{(x - 6)(x + 6)}}
+Final image size: (899, 400)
+Non-transparent pixel count: 26867
+Saved test debug image: test_eq_14.png
+Copying images: test_mode=True, text_length=1362, equations=15, images=15
+Non-transparent pixel count: 10271
+Image bytes length: 6461
+Saved debug image: debug_eq_0.png
+Non-transparent pixel count: 14411
+Image bytes length: 8716
+Saved debug image: debug_eq_1.png
+Non-transparent pixel count: 14063
+Image bytes length: 6122
+Saved debug image: debug_eq_2.png
+Non-transparent pixel count: 26094
+Image bytes length: 15175
+Saved debug image: debug_eq_3.png
+Non-transparent pixel count: 23795
+Image bytes length: 10848
+Saved debug image: debug_eq_4.png
+Non-transparent pixel count: 31645
+Image bytes length: 15351
+Saved debug image: debug_eq_5.png
+Non-transparent pixel count: 14814
+Image bytes length: 7151
+Saved debug image: debug_eq_6.png
+Non-transparent pixel count: 42008
+Image bytes length: 18157
+Saved debug image: debug_eq_7.png
+Non-transparent pixel count: 30927
+Image bytes length: 31346
+Saved debug image: debug_eq_8.png
+Non-transparent pixel count: 15775
+Image bytes length: 8509
+Saved debug image: debug_eq_9.png
+Non-transparent pixel count: 16937
+Image bytes length: 8610
+Saved debug image: debug_eq_10.png
+Non-transparent pixel count: 22474
+Image bytes length: 11709
+Saved debug image: debug_eq_11.png
+Non-transparent pixel count: 6748
+Image bytes length: 4384
+Saved debug image: debug_eq_12.png
+Non-transparent pixel count: 13061
+Image bytes length: 6687
+Saved debug image: debug_eq_13.png
+Non-transparent pixel count: 26867
+Image bytes length: 10408
+Saved debug image: debug_eq_14.png
+Successfully copied 15 images with text to clipboard
+Application closed
