@@ -1,9 +1,12 @@
 import re
 import logging
+import subprocess
+import os
 
 def check_latex():
-    """Check if a LaTeX distribution is installed."""
+    """Check if a LaTeX distribution and dvipng are installed."""
     try:
+        # Check Matplotlib LaTeX rendering
         import matplotlib
         matplotlib.use('Agg')
         from matplotlib import pyplot as plt
@@ -12,15 +15,28 @@ def check_latex():
         plt.axis('off')
         plt.savefig('test_latex.png', format='png', dpi=100, bbox_inches='tight')
         plt.close()
-        import os
         if os.path.exists('test_latex.png'):
             os.remove('test_latex.png')
-            logging.info("LaTeX distribution found and functional")
-            return True
-        logging.error("LaTeX rendering failed: no output file generated")
-        return False
+            logging.info("Matplotlib LaTeX rendering functional")
+        else:
+            logging.error("Matplotlib LaTeX rendering failed: no output file generated")
+            return False
     except Exception as e:
-        logging.error(f"LaTeX check failed: {e}")
+        logging.error(f"Matplotlib LaTeX check failed: {e}")
+        return False
+    
+    try:
+        # Check latex and dvipng commands
+        latex_result = subprocess.run(["latex", "--version"], check=True, capture_output=True, text=True)
+        dvipng_result = subprocess.run(["dvipng", "--version"], check=True, capture_output=True, text=True)
+        logging.info(f"latex version: {latex_result.stdout.splitlines()[0]}")
+        logging.info(f"dvipng version: {dvipng_result.stdout.splitlines()[0]}")
+        return True
+    except subprocess.CalledProcessError as e:
+        logging.error(f"LaTeX or dvipng check failed: {e.stderr}")
+        return False
+    except FileNotFoundError:
+        logging.error("latex or dvipng not found in system PATH")
         return False
 
 def find_latex_equations(text):
@@ -29,7 +45,6 @@ def find_latex_equations(text):
         logging.info("No text provided for LaTeX equation detection")
         return {'equations': [], 'matches': []}
     
-    # Regex patterns for LaTeX equations
     patterns = [
         (r'\\\[(.*?)\\\]', True),           # Display math \[...\]
         (r'\\\((.*?)\\\)', False),         # Inline math \(...\)
@@ -43,10 +58,8 @@ def find_latex_equations(text):
     
     for pattern, is_display in patterns:
         for match in re.finditer(pattern, text, re.DOTALL):
-            # Extract equation without delimiters
             equation = match.group(1).strip() if pattern not in [r'\\\((.*?)\\\)', r'\$(.*?)\$'] else match.group(1).strip()
             if equation:
-                # Clean equation for rendering
                 cleaned_equation = equation.replace('\n', ' ').strip()
                 equations.append(cleaned_equation)
                 matches.append({
@@ -58,10 +71,8 @@ def find_latex_equations(text):
                 })
                 logging.info(f"Detected equation: {cleaned_equation[:50]}... (start={match.start()}, end={match.end()})")
     
-    # Sort matches by start position to maintain text order
     matches.sort(key=lambda x: x['start'])
     sorted_equations = [m['equation'] for m in matches]
-    
     logging.info(f"Found {len(sorted_equations)} LaTeX equations")
     for i, eq in enumerate(sorted_equations, 1):
         logging.info(f"Equation {i}: {eq[:50]}...")

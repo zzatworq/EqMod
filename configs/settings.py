@@ -14,7 +14,6 @@ LOGGING_CONFIG = {
 RC_PARAMS = {
     'text.usetex': True,
     'text.latex.preamble': r'\usepackage{amsmath}',
-    'font.family': 'serif',
     'font.serif': ['Times'],
     'axes.labelsize': 12,
     'font.size': 12,
@@ -22,4 +21,3 @@ RC_PARAMS = {
     'xtick.labelsize': 10,
     'ytick.labelsize': 10,
 }
-
