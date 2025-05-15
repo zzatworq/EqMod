@@ -18,11 +18,12 @@ rcParams.update(RC_PARAMS)
 
 # Enable DPI awareness
 try:
-    ctypes.windll.user32.SetProcessDPIAware()
+    ctypes.windll.shcore.SetProcessDpiAwareness(2)
 except Exception:
-    pass
+    ctypes.windll.user32.SetProcessDPIAware()
 
 if __name__ == "__main__":
     root = tk.Tk()
     app = LatexClipboardApp(root)
     root.mainloop()
+    

@@ -74,4 +74,6 @@ __pypackages__/
 debug_eq_*.png
 test_eq_*.png
 
+*.log
+
 cache=and-logs

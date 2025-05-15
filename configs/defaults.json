@@ -1,0 +1,9 @@
+{
+    "mode": "Matplotlib",
+    "text_color": "white",
+    "font_size": "12",
+    "dpi": "300",
+    "only_images": false,
+    "save_equations": false,
+    "enable_logging": false
+}
