@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 LOGGING_CONFIG = {
     'level': logging.INFO,
     'handlers': [
-        RotatingFileHandler('latex_clipboard.log', maxBytes=10*1024*1024, backupCount=5),
+        RotatingFileHandler('./cache-and-logs/latex_clipboard.log', maxBytes=10*1024*1024, backupCount=5),
         logging.StreamHandler()
     ]
 }

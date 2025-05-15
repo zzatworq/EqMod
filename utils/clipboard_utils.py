@@ -1,64 +1,87 @@
 import win32clipboard
-import win32con
 import logging
-import base64
+import time
+import re
 
-def validate_base64(data):
-    """Validate if a string is valid base64 data."""
+def set_clipboard_html(html_content):
+    """Set HTML content to the Windows clipboard."""
     try:
-        base64.b64decode(data)
-        return True
-    except Exception:
-        return False
+        # Validate HTML content
+        if not html_content or not isinstance(html_content, str):
+            raise ValueError("HTML content must be a non-empty string")
 
-def set_clipboard_html(html):
-    """Set HTML content to the clipboard."""
-    try:
-        CF_HTML = win32clipboard.RegisterClipboardFormat("HTML Format")
+        # Register HTML clipboard format
+        try:
+            CF_HTML = win32clipboard.RegisterClipboardFormat("HTML Format")
+        except Exception as e:
+            logging.error(f"Failed to register HTML clipboard format: {e}")
+            raise ValueError("Cannot register HTML clipboard format")
+
+        # Prepare HTML clipboard format
         html_header = (
             "Version:0.9\r\n"
-            "StartHTML:00000000\r\n"
-            "EndHTML:00000000\r\n"
-            "StartFragment:00000000\r\n"
-            "EndFragment:00000000\r\n"
+            "StartHTML:0000000105\r\n"
+            "EndHTML:{:010d}\r\n"
+            "StartFragment:0000000141\r\n"
+            "EndFragment:{:010d}\r\n"
+            "<html><body>\r\n"
+            "<!--StartFragment-->{}<!--EndFragment-->\r\n"
+            "</body></html>"
         )
-        html_content = f"<!DOCTYPE html><html><body><!--StartFragment-->{html}<!--EndFragment--></body></html>"
-        start_html = len(html_header)
-        start_fragment = start_html + html_content.find("<!--StartFragment-->") + len("<!--StartFragment-->")
-        end_fragment = start_html + html_content.find("<!--EndFragment-->")
-        end_html = start_html + len(html_content)
-        html_header = (
-            f"Version:0.9\r\n"
-            f"StartHTML:{start_html:08d}\r\n"
-            f"EndHTML:{end_html:08d}\r\n"
-            f"StartFragment:{start_fragment:08d}\r\n"
-            f"EndFragment:{end_fragment:08d}\r\n"
+        
+        # Calculate positions
+        fragment = html_content
+        full_html = html_header.format(
+            len(html_header) + len(fragment),
+            len(html_header) + len(fragment) - len("<!--EndFragment-->\r\n</body></html>"),
+            fragment
         )
-        final_html = html_header + html_content
-        win32clipboard.OpenClipboard()
-        win32clipboard.EmptyClipboard()
-        win32clipboard.SetClipboardData(CF_HTML, final_html.encode('utf-8'))
-        win32clipboard.CloseClipboard()
-        return True
-    except Exception as e:
-        logging.error(f"Error setting HTML clipboard: {e}")
-        return False
-
-def get_clipboard_text():
-    """Retrieve text from the clipboard."""
-    try:
+        
+        # Convert to bytes
+        html_bytes = full_html.encode('utf-8')
+        
+        # Set clipboard data
         win32clipboard.OpenClipboard()
         try:
-            if win32clipboard.IsClipboardFormatAvailable(win32con.CF_UNICODETEXT):
-                text = win32clipboard.GetClipboardData(win32con.CF_UNICODETEXT)
-                if text:
-                    logging.info(f"Retrieved clipboard text: {text[:100]}...")
-                return text
-            else:
-                logging.info("Clipboard contains non-text data")
-                return None
+            win32clipboard.EmptyClipboard()
+            win32clipboard.SetClipboardData(CF_HTML, html_bytes)
+            logging.info("Successfully set HTML to clipboard")
         finally:
             win32clipboard.CloseClipboard()
-    except win32clipboard.error as e:
-        logging.error(f"Error accessing clipboard: {e}")
+        
+    except Exception as e:
+        logging.error(f"Failed to set clipboard HTML: {str(e)}")
+        raise Exception(f"Failed to set clipboard HTML: {str(e)}")
+
+def get_clipboard_text():
+    """Retrieve text from the Windows clipboard."""
+    try:
+        win32clipboard.OpenClipboard()
+        if win32clipboard.IsClipboardFormatAvailable(win32clipboard.CF_UNICODETEXT):
+            text = win32clipboard.GetClipboardData(win32clipboard.CF_UNICODETEXT)
+            logging.info("Retrieved text from clipboard")
+            return text
+        else:
+            logging.info("No text data available in clipboard")
+            return None
+    except Exception as e:
+        logging.error(f"Failed to get clipboard text: {e}")
         return None
+    finally:
+        try:
+            win32clipboard.CloseClipboard()
+        except:
+            pass
+
+def validate_base64(data):
+    """Validate if the input string is valid base64."""
+    try:
+        base64_pattern = re.compile(r'^[A-Za-z0-9+/=]+$')
+        if not base64_pattern.match(data):
+            return False
+        import base64
+        base64.b64decode(data, validate=True)
+        return True
+    except Exception as e:
+        logging.error(f"Base64 validation failed: {e}")
+        return False

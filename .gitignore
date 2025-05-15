@@ -73,3 +73,5 @@ __pypackages__/
 # Exclude debug and test images
 debug_eq_*.png
 test_eq_*.png
+
+cache=and-logs
